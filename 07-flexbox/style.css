@@ -25,7 +25,7 @@
   display: flex;
   flex-wrap: wrap;
 }
-*/
+
 
 /* Etape 3 : Changer la hauteur d'un élément */
 /* => la hauteur des autres éléments suivent */
@@ -82,7 +82,7 @@
 /* Etape 8 : item :flex-grow */
 /* poids des éléments sur une ligne */
 /* => exemple avec des poids différents */
-/*
+
 .conteneur {
   display: flex;
 }
@@ -98,7 +98,7 @@
 .element:nth-of-type(3) {
   flex-grow: 1;
 }
-*/
+
 
 /* Etape 9 : item: flex-basis */
 /* exemple avec seul l'élément central a le droit de s'agrandir */

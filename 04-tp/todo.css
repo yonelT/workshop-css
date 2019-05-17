@@ -40,3 +40,21 @@ input[type = "submit"]{ /* tout les input de type "submit"/
     border-radius: 3px;
 }
 */
+
+@media (min-width : 500px){
+	body{
+	     background-color : red;
+	}
+}
+
+@media (min-width : 700px){
+	body{
+	     background-color: yellow;
+	}
+}
+
+@media (min-width : 900px){
+	body{
+	     background-color:blue;
+	}
+}
