@@ -1,4 +1,4 @@
-# Flexbox & Media Queries
+# TP - Flexbox & Media Queries
 
 * Créer un fichier `structure.html` avec le contenu suivant :
 

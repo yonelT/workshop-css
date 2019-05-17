@@ -1,4 +1,4 @@
-# Exercices 01 - Les sélecteurs
+# TP - Les sélecteurs
 
 * Créer un fichier HTML _todolist.html_ avec le contenu suivant :
 
