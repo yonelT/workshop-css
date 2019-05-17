@@ -1,0 +1,33 @@
+@keyframes animationTournoyer {
+    from {
+        transform: rotateZ(0deg);
+        background-color: red;
+    } to {
+        transform:rotateZ(380deg);
+        background-color: blue;
+    }
+}
+
+
+#carre{
+    margin-top:5%;
+    margin-left:5%;
+    width: 100px;
+    height: 100px;
+
+    animation-name: animationTournoyer;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+
+#carre:hover{
+    margin-top:5%;
+    margin-left:5%;
+    width: 200px;
+    height: 100px;
+    
+    animation-name: animationTournoyer;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
