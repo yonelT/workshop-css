@@ -1,14 +1,23 @@
-/* sélecteur simple
-header {
-  font-size: 2em;
+html {
+  font-size: 62.5%;
 }
-*/
 
-/* sélecteur multiple
+
+body {
+  font-size: 1.6rem;
+}
+
+
+/* sélecteur simple */
+header {
+  font-size: 100%;
+}
+
+
+/* sélecteur multiple */
 header, footer {
   color: orange;
 }
-*/
 
 /* propriétés combinées
 header {
@@ -16,15 +25,15 @@ header {
 }
 */
 
-/* sélecteur d'attributs
+/* sélecteur d'attributs */
 input[type="submit"] {
   color: pink;
 }
 
+/* tout les type qui commencent par "te", exemple input=text, sera en vert */
 input[type^="te"] {
   color: green;
 }
-*/
 
 /* pseudo - hover
 form:hover {
@@ -39,12 +48,12 @@ form:hover {
 }
 */
 
-/* pseudo - after
+/* pseudo - after \2605 désigne le caractère unicode étoile*/
 .left-aside:after {
     color:red;
     content: '\2605';
 }
-*/
+
 
 /* pseudo - first-letter
 main p:first-letter {
